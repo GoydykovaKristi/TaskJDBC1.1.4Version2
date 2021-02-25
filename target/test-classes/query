@@ -1,8 +1,0 @@
-CREATE TABLE `mydbtest`.`users_preproj` (
-  `id` BIGINT(19) NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(45) CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
-  `lastname` VARCHAR(45) CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
-  `age` TINYINT(3) NOT NULL,
-  PRIMARY KEY (`id`))
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8;

@@ -16,8 +16,6 @@ public class UserDaoJDBCImpl implements UserDao {
     private static final String REMOVE_USER = "DELETE FROM users WHERE id = ?;";
     private static final String TRUNCATE_TABLE = "TRUNCATE users;";
 
-
-
     private static final String CREATE = "CREATE TABLE IF NOT EXISTS users "+
             "(id BIGINT(19) NOT NULL AUTO_INCREMENT, " +
             "name VARCHAR(45) NOT NULL," +
