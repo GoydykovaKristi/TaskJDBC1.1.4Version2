@@ -36,19 +36,14 @@ public class Main {
         }
 
         //Получение всех User из базы и вывод в консоль
-        System.out.println("-------------------------");
-        System.out.println("Получение всех User из базы");
         System.out.println(userService.getAllUsers());
 
         //Очистка таблицы User(ов)
         userService.cleanUsersTable();
-        System.out.println("-------------------------");
-        System.out.println("таблица очищена");
-        System.out.println(userService.getAllUsers());
+
 
         //Удаление таблицы
         userService.dropUsersTable();
-        System.out.println("-------------------------");
-        System.out.println("Таблица удалена");
+
     }
 }
